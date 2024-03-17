@@ -1,0 +1,65 @@
+
+
+.main {
+  display: column; /* הצגת האלמנטים כאשר כל אחד משתמש במרחב נדיב */
+  align-items: center; /* יישור האלמנטים באמצע גם על ידי מרכז גם על ידי מינף */
+  border: 1px solid #ccc; /* צבע הגבול */
+  border-radius: 25px; /* רדיוס הקצוות המעוגלים */
+  padding: 20px; /* מרווח בין הטקסט למסגרת */
+  width: 300px; /* רוחב המסגרת */
+  height: 100%;
+}
+
+.main span {
+  margin-right: 5px; /* מרווח מימין לתווית "Search" */
+}
+
+.main input {
+  padding: 5px; /* מרווח פנימי של הקלט */
+  border: 5px; /* קצוות מעוגלים */
+  border: 1px solid #000;; /* גבול סולידי */
+  margin-right: 30px;
+}
+
+.main button {
+  background: yellow; /* רקע צהוב */
+  border: none; /* הסרת גבול */
+  padding: 5px 10px; /* מרווח בין הכפתור לתוכן */
+  border: 5px; /* קצוות מעוגלים */
+  cursor: pointer; /* הצגת סמן עכבר כאשר עוברים על הכפתור */
+}
+
+
+/* User.css */
+
+.user-info button {
+    margin-right: 5px;
+    margin-top: 20px;
+    background-color: gray;
+}
+
+.user-info {
+  margin-bottom: 5px;
+}
+
+.user-info label {
+  font-weight: bold;
+  font-size: small;
+}
+
+.user-info input {
+  margin-left: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 60%;
+  font-size: x-small;
+}
+
+/* Adding style to ensure each user appears below the other */
+.user-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+}
